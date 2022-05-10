@@ -1,0 +1,30 @@
+/*variables*/
+/*hover*/
+#size-logo {
+  height: 100%;
+  width: 50%;
+}
+
+#banner {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#size-banner {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Saira Condensed", sans-serif;
+  text-shadow: 0rem 0.2rem 0rem rgba(214, 211, 211, 0.656);
+}
+
+.img-tarjetas {
+  height: 50%;
+  width: 50%;
+}/*# sourceMappingURL=styles-main.css.map */
