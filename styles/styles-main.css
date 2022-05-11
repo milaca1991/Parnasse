@@ -1,10 +1,12 @@
 /*variables*/
 /*hover*/
+/*ESTILOS LOGO*/
 #size-logo {
   height: 100%;
   width: 50%;
 }
 
+/*ESTILOS BANNER*/
 #banner {
   box-sizing: border-box;
   display: flex;
@@ -17,6 +19,7 @@
   width: 100%;
 }
 
+/*ESTILOS TITULO PRINCIPAL*/
 h1 {
   text-align: center;
   font-size: 2rem;
@@ -24,7 +27,55 @@ h1 {
   text-shadow: 0rem 0.2rem 0rem rgba(214, 211, 211, 0.656);
 }
 
-.img-tarjetas {
-  height: 50%;
-  width: 50%;
+/*ESTILOS TARJETAS DE PRODUCTOS*/
+.productos {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tarjeta-1 {
+  width: 70%;
+  height: 100%;
+  padding: 3%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  border-color: rgba(122, 122, 122, 0.46);
+  margin-bottom: 5%;
+  box-shadow: 0rem 0rem 0.3rem 0rem #7A7A7A;
+}
+.tarjeta-1 .img-tarjetas {
+  height: 80%;
+  width: 80%;
+  align-items: center;
+}
+
+/*ESTILOS TEXTO TARJETAS DE PRODUCTOS*/
+.name-product {
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 200;
+  margin-bottom: 0%;
+}
+
+.text-presentacion {
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+
+.text-styles-tarjetas {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
 }/*# sourceMappingURL=styles-main.css.map */
