@@ -105,16 +105,28 @@ h5 {
   flex-direction: column;
   align-items: center;
 }
-
-p {
+.metodo-pago p {
   font-family: "Saira Condensed", sans-serif;
   font-size: 1rem;
   text-align: center;
 }
-
-img {
+.metodo-pago img {
   width: 30%;
   height: 30%;
   display: block;
   margin: 0px auto;
+}
+
+/*ESTILOS SECCION NOSOTROS*/
+h4 {
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.texto-nosotros {
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: justify;
 }/*# sourceMappingURL=styles-main.css.map */
