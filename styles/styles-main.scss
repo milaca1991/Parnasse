@@ -5,6 +5,9 @@ $heigth-img-tarjetas: 80%;
 $font-title:'Saira Condensed', sans-serif;
 $width-tarjetas: 70%;
 $heigth-tarjetas: 100%;
+$width-icono-pago: 30%;
+$heigth-icono-pago: 30%;
+
 
 
 
@@ -110,3 +113,50 @@ h1{
     height: 100%;
     
 }
+
+/*ESTILOS SECCION COMO COMPRAR*/
+
+h2{
+    font-family: $font-title;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#text-comocomprar{
+
+    font-family: $font-title;
+    text-align: center;
+    font-size: 1rem;
+}
+
+h5{
+    font-family: $font-title;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.metodo-pago{
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+p{ 
+    font-family: $font-title;
+    font-size: 1rem;
+    text-align: center;
+
+
+}
+
+img{
+    width: $width-icono-pago;
+    height: $heigth-icono-pago;
+    display: block;
+    margin: 0px auto;
+}
+
