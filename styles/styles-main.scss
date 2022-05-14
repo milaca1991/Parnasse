@@ -7,7 +7,7 @@ $width-tarjetas: 70%;
 $heigth-tarjetas: 100%;
 $width-icono-pago: 30%;
 $heigth-icono-pago: 30%;
-
+$color-text-footer: white;
 
 
 
@@ -34,6 +34,9 @@ $heigth-icono-pago: 30%;
     height: 100%;
     width: 100%;
 }
+
+
+
 
 /*ESTILOS TITULO PRINCIPAL*/
 h1{
@@ -176,4 +179,67 @@ h4{
     font-weight: 300;
     font-size: 1rem;
     text-align: justify;
+}
+
+
+.footer{
+    
+    background-color: rgba(36, 36, 34, 1);
+    margin: 0%;
+    padding: 10%;
+
+    
+   
+
+            ul{
+                list-style: none;
+                color: $color-text-footer;
+                font-family: $font-title;
+                font-weight: 700;
+                text-align: center;
+                font-size: 1rem;
+                padding: 0%;
+                margin: 0%;   
+
+
+            }
+
+    
+}
+.espacio{
+
+    height: 7vh;
+    width: 7vw;
+}
+
+.inf-correo{
+
+    span{
+        color: $color-text-footer;
+        font-family: $font-title;
+        text-align: center;
+        display: block;
+         
+    
+    }
+
+
+}
+
+#contacto{
+    font-weight:900;
+}   
+
+.redes{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+        .icon-redes{
+
+            width: 15vw;
+            height: 10vh;
+        }
+
 }

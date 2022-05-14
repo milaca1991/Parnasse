@@ -129,4 +129,46 @@ h4 {
   font-weight: 300;
   font-size: 1rem;
   text-align: justify;
+}
+
+.footer {
+  background-color: rgb(36, 36, 34);
+  margin: 0%;
+  padding: 10%;
+}
+.footer ul {
+  list-style: none;
+  color: white;
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0%;
+  margin: 0%;
+}
+
+.espacio {
+  height: 7vh;
+  width: 7vw;
+}
+
+.inf-correo span {
+  color: white;
+  font-family: "Saira Condensed", sans-serif;
+  text-align: center;
+  display: block;
+}
+
+#contacto {
+  font-weight: 900;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.redes .icon-redes {
+  width: 15vw;
+  height: 10vh;
 }/*# sourceMappingURL=styles-main.css.map */
