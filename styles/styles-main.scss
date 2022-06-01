@@ -8,6 +8,7 @@ $heigth-tarjetas: 100%;
 $width-icono-pago: 30%;
 $heigth-icono-pago: 30%;
 $color-text-footer: white;
+$hover-color: green;
 
 
 
@@ -15,9 +16,11 @@ $color-text-footer: white;
 /*hover*/
 
 /*ESTILOS LOGO*/
-#size-logo{
+
+.size-logo{
+
     height: 100%;
-    width: 50%;
+    width: 100%;
 }
 
 /*ESTILOS BANNER*/
@@ -96,6 +99,7 @@ h1{
         font-style: normal;
         font-weight: 200;
         margin-bottom: 0%;
+        text-align: center;
         
     }
 
@@ -165,11 +169,18 @@ h5{
 
 /*ESTILOS SECCION NOSOTROS*/
 
+.nosotros{
+    height: 100vh;
+  
+}
+
+
 h4{
 
     font-family: $font-title;
     font-size: 1.8rem;
     text-align: center;
+    box-sizing: border-box;
     
 }
 
@@ -178,10 +189,13 @@ h4{
     font-family: $font-title;
     font-weight: 300;
     font-size: 1rem;
-    text-align: justify;
+
+    
 }
 
 
+
+/*ESTILOS SECCION FOOTER*/
 .footer{
     
     background-color: rgba(36, 36, 34, 1);
@@ -190,16 +204,17 @@ h4{
 
     
    
++
 
             ul{
                 list-style: none;
-                color: $color-text-footer;
                 font-family: $font-title;
                 font-weight: 700;
                 text-align: center;
                 font-size: 1rem;
                 padding: 0%;
                 margin: 0%;   
+
 
 
             }
@@ -219,8 +234,7 @@ h4{
         font-family: $font-title;
         text-align: center;
         display: block;
-         
-    
+
     }
 
 
@@ -243,3 +257,38 @@ h4{
         }
 
 }
+
+a:hover {
+    background-color: gold;
+  }
+
+
+
+    /*ESTILOS DETALLE COLAGENO*/
+
+
+.detalle_colageno{
+
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    margin: 5% 5% 5%;
+}
+
+.img-detalle{
+
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+}
+
+.regreso{
+
+    display: block;
+    text-align: center;
+    font-size: 100%;
+    font-family: $font-title;
+    
+}
+
+
