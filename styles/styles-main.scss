@@ -208,7 +208,7 @@ h4 {font-family: $font-title;
     footer{
 
         display: block;
-        background-color: black;
+        background-color: rgba(36, 36, 34, 1);
         color: $color-text-footer;
 
         ul{
@@ -218,7 +218,11 @@ h4 {font-family: $font-title;
             font-family: $font-title;
             padding: 0%;
             font-size: 1.4rem;
-
+            
+            a{
+                text-decoration: none;
+                color: $color-text-footer;
+            }
 
 
         }
@@ -272,6 +276,41 @@ padding: 8%;
     
     }
     
+
+
+
+/*boton whatsapp */
+
+.fab {
+    padding: 7%;
+    font-size: 2.8rem;
+    text-align: center;
+    width: 15%;
+    text-decoration: none;
+    margin: 0%;
+    border-radius: 50%;
+    position: sticky;
+
+    }
+    
+    .fab:hover {
+    opacity: 0.7;
+    }
+    
+    .fa-whatsapp {
+    background: #42b935;
+    color: white;
+   
+    }
+
+.icono-wap{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+    position: sticky;
+    top: 0%;
+}
 
         
     /*ESTILOS DETALLE COLAGENO*/
