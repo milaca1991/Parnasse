@@ -1,9 +1,14 @@
 /*variables*/
 /*hover*/
+/*ESTILOS GENERALES*/
+body {
+  min-height: 800vh;
+}
+
 /*ESTILOS LOGO*/
 .size-logo {
   height: 100%;
-  width: 100%;
+  width: 80%;
 }
 
 /*ESTILOS BANNER*/
@@ -12,6 +17,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 #size-banner {
@@ -19,10 +25,18 @@
   width: 100%;
 }
 
+.espacio {
+  height: 7vh;
+  width: 7vw;
+  display: block;
+}
+
 /*ESTILOS TITULO PRINCIPAL*/
-h1 {
+.titulos {
+  box-sizing: border-box;
+}
+.titulos h1 {
   text-align: center;
-  font-size: 2rem;
   font-family: "Saira Condensed", sans-serif;
   text-shadow: 0rem 0.2rem 0rem rgba(214, 211, 211, 0.656);
 }
@@ -34,6 +48,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  padding: 3%;
 }
 
 .tarjeta-1 {
@@ -86,6 +101,9 @@ h2 {
   font-family: "Saira Condensed", sans-serif;
   font-size: 2rem;
   text-align: center;
+  margin: 0%;
+  padding: 0%;
+  border: 0%;
 }
 
 #text-comocomprar {
@@ -119,53 +137,50 @@ h5 {
 }
 
 /*ESTILOS SECCION NOSOTROS*/
-.nosotros {
-  height: 100vh;
-}
-
 h4 {
   font-family: "Saira Condensed", sans-serif;
-  font-size: 1.8rem;
   text-align: center;
-  box-sizing: border-box;
+  font-size: 1.8rem;
+  margin: 1%;
 }
 
-.texto-nosotros {
-  font-family: "Saira Condensed", sans-serif;
-  font-weight: 300;
-  font-size: 1rem;
+.textoNosotros {
+  margin: 3%;
+  text-align: justify;
 }
 
 /*ESTILOS SECCION FOOTER*/
-.footer {
-  background-color: rgb(36, 36, 34);
-  margin: 0%;
-  padding: 10%;
+footer {
+  display: block;
+  background-color: black;
+  color: white;
 }
-.footer + ul {
+footer ul {
   list-style: none;
-  font-family: "Saira Condensed", sans-serif;
-  font-weight: 700;
+  color: white;
   text-align: center;
-  font-size: 1rem;
+  font-family: "Saira Condensed", sans-serif;
   padding: 0%;
-  margin: 0%;
+  font-size: 1.4rem;
 }
 
-.espacio {
-  height: 7vh;
-  width: 7vw;
+.footer-general {
+  padding: 8%;
 }
 
-.inf-correo span {
+.menu-footer {
+  height: 100%;
+}
+
+.inf-correo p {
   color: white;
   font-family: "Saira Condensed", sans-serif;
   text-align: center;
   display: block;
 }
-
-#contacto {
+.inf-correo #contacto {
   font-weight: 900;
+  font-size: 1.4rem;
 }
 
 .redes {
@@ -178,15 +193,11 @@ h4 {
   height: 10vh;
 }
 
-a:hover {
-  background-color: gold;
-}
-
 /*ESTILOS DETALLE COLAGENO*/
 .detalle_colageno {
   box-sizing: border-box;
-  height: 100%;
-  width: 100%;
+  height: 80%;
+  width: 80%;
   margin: 5% 5% 5%;
 }
 
